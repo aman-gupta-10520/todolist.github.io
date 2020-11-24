@@ -1,0 +1,89 @@
+body{
+  text-align: center;
+  background-color: cyan;
+
+}
+h1{
+  color:#343947;
+}
+h4{
+  color:#343947;
+}
+.todo-wrapper{
+  background-color: #bbdbad;
+  margin-left: auto;
+  margin-right:auto;
+  border-radius: 20px;
+  width:800px;
+  height:500px;
+  box-shadow: 0 12px 16px 0 black, 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#entry{
+ border-radius: 5px;
+ border-color: red;
+ height: 30px;
+ width:300px;
+}
+#add-button{
+  background-color: #d967f0;
+  width:50px;
+  height:30px;
+}
+#buttons button{
+  margin-left: 20px;
+  width:150px;
+  height:30px;
+
+}
+button{
+  border-radius: 10px;
+}
+button:hover{
+  opacity: 0.90;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+li{
+  text-align:left;
+  margin-left:150px;
+}
+.completed{
+  text-decoration: line-through;
+  color:#666;
+}
+ol li:nth-child(even){
+  background:#f9fac3;
+  border-radius: 10px;
+}
+ol li:nth-child(odd){
+  background:#edcaaf;
+  border-radius: 10px;
+}
+#clear-completed-button{
+  background-color: #49B749;
+}
+#save-button{
+  background-color: #9B1C20;
+}
+#empty-button{
+  background-color: #f57e47;
+}
+
+@media only screen and (min-width: 1400px) {
+    .todo-wrapper {
+        width: 50%;
+    }
+
+    .todo-wrapper input {
+        width: 600px;
+    }
+
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+    .todo-wrapper {
+        width: 75%;
+    }
+
+    .todo-wrapper input {
+        width: 400px;
+    }
